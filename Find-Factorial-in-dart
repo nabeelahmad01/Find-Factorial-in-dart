@@ -1,0 +1,11 @@
+import 'dart:io';
+void main() {
+var fact=1;
+	print("Print any number");
+var n=int.parse(stdin.readLineSync()!);
+print("The Number is $n");
+for(var i=n; i>=1; i--){
+fact*=i;
+}
+print("The Factorial of you Number is $fact ");
+}
